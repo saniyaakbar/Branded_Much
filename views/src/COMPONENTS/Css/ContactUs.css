@@ -1,0 +1,144 @@
+.contactus{
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.leftContact{
+    position: relative;
+    height: inherit;
+    width: 50%;
+    color: white;
+    margin-top: 2vmax;
+    /* background-color: red; */
+}
+
+.leftContact h1{
+    font-size: 4vmax;
+}
+
+.leftContact>p{
+    position: absolute;
+    top: 53%;
+    left: 30%;
+}
+
+#footerLogo>img{
+    position: absolute;
+    left: 15%;
+    height: 15vh;
+}
+
+#icons{
+    position: absolute;
+    top: 27%;
+    left: 15%;
+    height: 3vmax;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #fff; */
+}
+
+.icon{
+    position: relative;
+    height: inherit;
+    width: 10%;
+    /* background-color: bisque; */
+}
+
+.icon img{
+    height: 4vmax;
+    font-size: 1vmax;
+
+}
+
+#settings{
+    position: absolute;
+    top: 50%;
+    left: 16%;
+    height: 5vmax;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+    color: white;
+}
+
+.setting{
+    display: flex;
+}
+
+#settings .setting a{
+    color: white;
+}
+
+#settings .line{
+    height: 3vh;
+    width: 0.1vmax;
+    background-color: white;
+    opacity: 0.3;
+    margin-left: 1vmax;
+}
+
+#rightContact{
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    color: white;
+    /* background-color: #fff; */
+}
+
+#rightContact h1{
+    font-size: 3vmax;
+}
+
+#rightContact #btn{
+    position: absolute;
+    top: 90%;
+    left: 27%;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    height: 3vmax;
+    background-color: rgb(0, 0, 0);
+}
+
+.leftFooter{
+    height: inherit;
+    width: 30%;
+    /* background-color: aqua; */
+    display: flex;
+    margin-left: 2vmax;
+    /* justify-content: center; */
+    align-items: center;
+    color: white;
+}
+
+.footerRight{
+    height: inherit;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo{
+    margin-bottom: 1vmax;
+    margin-right: 1vmax;
+    height: 2.5vmax;
+    width: 2.5vmax;
+    border-radius: 0.5vmax;
+    border: 1.5px solid rgb(135, 135, 135);
+    background-color: transparent;
+    
+}

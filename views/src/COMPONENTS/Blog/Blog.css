@@ -1,0 +1,40 @@
+.blog{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #ffe8ec;
+}
+
+.blog h2{
+    font-family: ogg;
+    font-size: 2vmax;
+}
+
+#blogimg{
+    position: absolute;
+    top: 10%;
+    right: 6%;
+    height: 80vh;
+}
+
+.blogcenterText{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(0, -80%);
+    width: 30%;
+}
+
+.blogcenterText #blogbtn{
+    position: absolute;
+    top: 100%;
+    left: 25%;
+}
+
+.blogcenterText p{
+    font-size: 1.3vmax;
+}
+
+span{
+color: red;
+}

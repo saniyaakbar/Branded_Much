@@ -1,0 +1,56 @@
+#Landing{
+    height: 200vh;
+    width: 100%;
+    background-color: #ffe8ec;
+}
+
+#landingCard{
+    /* background-color: #fff; */
+    height:60vh;
+    width: 80%;
+    position: absolute;
+    top: 19%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translate(-50%, -15%);
+}
+
+#landingCard h1{
+    margin-bottom: 12vmax;
+    line-height: 3.5vmax;
+    font-family: ogg;
+    font-size: 3.2vmax;
+}
+
+#landingCard p{
+    position: absolute;
+    top: 45%;
+    left:32%;
+    font-size: 1.5vmax;
+    
+}
+
+button{
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    width: 14vmax;
+    padding: 0.7vmax;
+    font-size: 2vmax;
+    border-radius: 2vmax;
+    background-color: #fdadbc;
+    border: none;
+}
+
+#Landing>img{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    height: 70vh;
+}
+
+button:hover{
+    background-color: #faa1b2;
+}

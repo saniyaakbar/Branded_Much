@@ -1,0 +1,37 @@
+.freeConsultation{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #feeaed;
+}
+
+.freeConsultation h3{
+    font-family: ogg;
+    font-size: 2vmax
+}
+
+.freeConsultation p{
+    font-size: 1.3vmax
+}
+
+.freeConsultation .FreecenterText{
+    position: absolute;
+    top: 42%;
+    left: 20%;
+    transform: translate(0, -50%);
+    width: 35%;
+}
+
+.freeConsultation #freeimg1{
+    height: 50vh;
+    position: absolute;
+    z-index: 999;
+    top: 18%;
+    left: 63%;
+}
+
+.freeConsultation #freeBtn{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+}

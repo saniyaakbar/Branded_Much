@@ -1,0 +1,64 @@
+.segment{
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    background-color: #fff;
+    
+}
+
+#two{
+    background-color: #ffe8ec;
+}
+
+#four{
+    background-color: #ffe8ec;
+}
+
+
+.segleft{
+    height: 40vh;
+    width: 40%;
+    text-align: left;
+     /* background-color: beige; */
+}
+
+.segOddLeft{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+
+.segEvenLeft{
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    /* margin-left: 34vmax;
+    margin-top: 6vmax; */
+    
+}
+
+.segleft h1{
+    line-height: 2.9vmax;
+    width: 70%;
+    font-size: 2.7vmax;
+    font-family: ogg;
+}
+
+.segleft p{
+    width: 65%;
+    font-size: 1.1vmax;
+
+}
+
+.segOddright img{
+    height: 65vh;
+    margin-left: 34vmax;
+    margin-top: 6vmax;
+}
+
+.segEvenright img{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    height: 65vh;
+}

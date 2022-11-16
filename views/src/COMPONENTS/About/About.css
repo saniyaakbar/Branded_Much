@@ -1,0 +1,82 @@
+.sec1{
+    height: 70vh;
+    width: 100%;
+    background-color: #ffe8ec;
+    display: flex;
+    position: relative;
+}
+
+.sec1 .headline{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    width: 30%;
+    font-size: 2.5vmax;
+    font-family: ogg;
+    text-align: left;
+}
+
+.sec1 #I1{
+    position: absolute;
+    top: 5%;
+    right: 8%;
+    height: 60vh;
+}
+
+.sec2{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    align-content: center;
+}
+
+.centerAlign{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    width: 50%;
+    font-size: 1.5vmax;
+}
+
+.centerAlign h2{
+    font-family: ogg;
+}
+
+#vid1{
+    height: 50vh;
+}
+
+.sec3{
+    position: relative;
+    height: 150vh;
+    width: 100%;
+    background-color: #fff7f7;
+   
+}
+
+#sec3img{
+    margin-top: 5vmax;
+    height: 80vh;
+}
+
+.sec4{
+    height: 60vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url('../../assets/aboutSec4Img.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -50%;
+    
+}
+
+.sec4 h1{
+    font-size: 3vmax;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
