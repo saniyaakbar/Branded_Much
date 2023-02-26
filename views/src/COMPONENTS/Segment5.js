@@ -1,11 +1,62 @@
 import React, { useEffect, useState } from 'react'
 import './Css/Segment5.css'
+import realme from '../assets/BrandLogos/realme logo.png'
+import Celebfie from '../assets/BrandLogos/celebfie logo.png'
+import theZappyBox from '../assets/BrandLogos/zappybox.png'
+import PeoplesGroup from '../assets/BrandLogos/people.png'
+import CityMall from '../assets/BrandLogos/city mall.png'
+import pureaatman from '../assets/BrandLogos/pureaatman.png'
+import BombayTimesFashionWeek from '../assets/BrandLogos/bombaytimes.png'
+import CodeliaCruises from '../assets/BrandLogos/cruises.png'
+import Faaniwoods from '../assets/BrandLogos/logo variation-02.png'
+import BrandVTF from '../assets/BrandLogos/vtf.png'
+
 
 function Segment5() {
 
   const [brands, setbrands] = useState([]);
 
-  var defaultBrands = ["Realme", "Celebfie", "the Zappy Box", "Peoples's Group", "City Mall", "Pure Aatman", "Brand VTF", "Bombay Times Fashion Week", " Codelia Cruises", "Faaniwoods.com"];
+  var defaultBrands = [
+    {name: "Realme",
+     image: realme
+    },
+    {
+      name: "Celebfie",
+      image: Celebfie,
+    },
+    {
+      name: "the Zappy Box",
+      image: theZappyBox,
+    },
+    {
+      name: "Peoples's Group",
+      image: PeoplesGroup,
+    },
+    {
+      name: "City Mall",
+      image: CityMall
+    },
+    {
+      name: "Brand VTF",
+      image: BrandVTF
+    },
+    {
+      name: "Bombay Times Fashion Week",
+      image: BombayTimesFashionWeek
+    },
+    {
+      name: " Codelia Cruises",
+      image: CodeliaCruises
+    },
+    {
+      name: "Faaniwoods.com",
+      image: Faaniwoods
+    },
+    {name: "Pure Aatman",
+    image: pureaatman
+    }
+];
+
   useEffect(() => {
     
     setbrands(defaultBrands);
@@ -20,7 +71,7 @@ function Segment5() {
         <div id='topBox'>
           {brands.map((e, i)=>{
            return <div key={i} className='brandBox'>
-                {e}
+                <img src={e.image} alt="" />
             </div>
           })}
         </div>

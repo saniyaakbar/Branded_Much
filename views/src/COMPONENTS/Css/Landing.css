@@ -1,4 +1,5 @@
 #Landing{
+    /* position: relative; */
     height: 200vh;
     width: 100%;
     background-color: #ffe8ec;
@@ -20,14 +21,19 @@
 #landingCard h1{
     margin-bottom: 12vmax;
     line-height: 3.5vmax;
-    font-family: ogg;
+    font-family: 'Josefin Sans', sans-serif;
+
     font-size: 3.2vmax;
 }
 
 #landingCard p{
     position: absolute;
     top: 45%;
-    left:32%;
+    font-family: 'Poiret One', cursive;
+    font-weight: 900;
+
+    left:50%;
+    transform: translate(-50%,0%);
     font-size: 1.5vmax;
     
 }
@@ -47,10 +53,57 @@ button{
 #Landing>img{
     position: absolute;
     top: 70%;
-    left: 30%;
+    left: 50%;
     height: 70vh;
+    transform: translate(-50%,0%);
+    /* background-color: saddlebrown; */
 }
 
 button:hover{
     background-color: #faa1b2;
+}
+
+@media (max-width: 500px) {
+    
+    #Landing{
+        height: 176vh;
+    }
+    
+#landingCard{
+    width: 100%;
+    }
+    
+    #landingCard h1 {
+        margin-bottom: 12vmax;
+        line-height: 6.5vmax;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 5.2vmax;
+    }
+    
+    #landingCard p{
+        transform: translate(-50%,0%);
+        width: 100%;
+        top: 53%;
+        left: 50%;
+        font-size: 2vmax;
+    
+    }
+    
+    button{
+    
+    width: auto;
+    top: 75%;
+    left: 50%;
+    transform:translate(-50%,0%);
+    font-size: 4vmax;
+    border-radius: 4vmax;
+    padding-right: 1.5vmax;
+    padding-left: 1.5vmax;
+    }
+
+    #Landing>img {
+        height: 28vh;
+        left: 50%;
+        transform: translate(-50%,0%);
+    }
 }

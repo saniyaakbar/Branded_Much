@@ -37,7 +37,7 @@ function Sec2() {
         return () => {
 
         }
-    }, [cardData])
+    }, [])
 
     const display = cardData.map((e,i) => {
         return <div key={i} className="card_service">

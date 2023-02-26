@@ -1,6 +1,8 @@
 import React from 'react'
 import './Css/Landing.css'
 import Landing2 from './Landing2'
+import home1 from "../assets/Home1.png"
+import { Link } from "react-router-dom";
 
 function Landing() {
   return (
@@ -8,14 +10,14 @@ function Landing() {
 
         <div id="landingCard">
         
-        <h1 id='heading'>Business to Brand <br /> in just a few clicks</h1>
+        <h1 id='heading'>Ideas to Brand <br /> in just a few clicks</h1>
         <p>All the help you need to  create your <br /> Business’s Social Presence in one place</p>
-        <button>Get Started</button>
+       <Link to='/FreeConsultation'><button>Get Started</button></Link> 
 
 
         </div>
 
-        <img src="https://www.tailorbrands.com/wp-content/uploads/2022/03/hero-image-2-1.png" alt="" />
+        <img src={home1} alt="" />
 
 
 

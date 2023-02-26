@@ -5,13 +5,45 @@
     background-color: black;
     display: flex;
 }
+.wavefooter{
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 60px;
+    background-color: #000000;
+}
+.wavefooter .wave-svg{
+    outline: none;
+    border: none;
+background-color: transparent;
+width: 100%;
+height: 100%;
+display: block;
+}
+.wavefooter .wave-svg-fill{
+    outline: none;
+    outline-width: none;
+    border: none;
+    fill: rgb(255, 255, 255);
+}
 
+/* .footer-wave-svg{
+    background-color: goldenrod;
+    display: block;
+    height: 30px;
+    position: relative;
+    top: -1px;
+    width: 100%;
+}
+.footer-wave-path{
+    fill: #006e6a;
+} */
 .leftContact{
     position: relative;
     height: inherit;
     width: 50%;
     color: white;
-    margin-top: 2vmax;
+    /* margin-top: 2vmax; */
     /* background-color: red; */
 }
 
@@ -27,8 +59,9 @@
 
 #footerLogo>img{
     position: absolute;
-    left: 15%;
-    height: 15vh;
+    top: -15%;
+    left: 10%;
+    height: 30vh;
 }
 
 #icons{
@@ -141,4 +174,74 @@
     border: 1.5px solid rgb(135, 135, 135);
     background-color: transparent;
     
+}
+
+.footer{
+    display: initial;
+}
+
+#rightContact{
+    display: initial;
+}
+
+@media (max-width: 500px) {
+
+    .wavefooter{
+        display: none;
+        /* outline: 0;
+        border: 0; */
+    }
+    /* .wavefooter .wave-svg{
+        outline: 0;
+        border: 0;
+
+    }
+    .wavefooter .wave-svg-fill{
+        outline: 0;
+        outline-width: 0;
+    } */
+    .contactus{
+        height: 28vh;
+    }
+    
+    #rightContact{
+        display: none;
+    }
+
+    .leftContact{
+        width: 100%;
+    }
+
+    #icons{
+        left: 45%;
+        transform: translate(-50%,0%);
+        width: 60%;
+        top: 50%;
+        justify-content: space-around;
+        
+    }
+
+    #icons .icon img{
+        height: 6vmax;
+    }
+
+    #settings{
+        left: 50%;
+        top: 70%;
+        transform: translate(-50%,0%);
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    #settings .setting{
+        font-size: 1.5vmax;
+    }
+    #footerLogo>img{
+        left: 50%;
+        height: 25vh;
+        transform: translate(-50%,0%);
+    }
+    .footer{
+        display: none;
+    }
 }

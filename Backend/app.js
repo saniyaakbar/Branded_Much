@@ -20,13 +20,27 @@ var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
-app.use(cors(corsOptions))
+app.use(cors(
+  {
+    origin: ["http://localhost:9000", "https://starfluenza-frontend.onrender.com", "https://www.starfluenza.com"]
+  }
+));
+
+app.all('*', function(req, res, next) {
+  res.header('Access-Control-Allow-Headers', 'Content-Type, Access-Control-Allow-Methods, Access-Control-Allow-Origin');
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
+  next()
+});
+
 
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+
+require('dotenv').config()
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);

@@ -27,8 +27,8 @@ function Sec2() {
         <p>Branded Much is a place where ideas meet stories and stories meet trends. 
 We are a team of Industry experts who have built start-ups from scratch and are here to help your business get its right social presence established and managed through impeccable communication, visionary designs, flawless management and creative strategies.
 </p>
-        <video ref={vidRef} id='vid1' src={vid1}></video>
-        <button onClick={(e) => playVid(e)} id='vid1Play'>Play</button>
+        <video controls  ref={vidRef} id='vid1' src={vid1}></video>
+        {/* <button onClick={(e) => playVid(e)} id='vid1Play'>Play</button> */}
         </div>
     </div>
   )

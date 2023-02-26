@@ -2,8 +2,8 @@
     position: relative;
     height: 90vh;
     width: 100%;
-    background-color: #f7f7f7;
-    font-family: ogg;
+    background-color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .segment5 h1{
@@ -39,4 +39,37 @@
 
 .brandBox:hover{
     color: red;
+}
+
+
+.brandBox img{
+    width: 60%;
+}
+
+.brandBox:nth-child(9) img{
+    width: 190%;
+}
+
+
+@media (max-width: 500px) {
+    .segment5{
+        height: 95vh;
+        }
+        
+        .segment5 h1 {
+            top: 1%;  
+        }
+        
+        #topBox {
+        top: 16%;
+        }
+        
+        .brandBox{
+        font-size:2.5vmax;
+        }
+
+        
+.brandBox:nth-child(9) img{
+    width: 141%;
+}
 }

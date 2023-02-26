@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import image1 from '../../assets/serviceSec1img.png'
 
 
@@ -10,7 +11,8 @@ function Sec1() {
        <div id="serviceTextDiv">
        <h1>Style your Business into a Brand </h1>
         <h3>BOOK FREE CONSULTATION</h3>
-        <button>Book Now</button>
+        
+        <Link to='/FreeConsultation'><button>Book Now</button></Link>
        </div>
     </div>
   )

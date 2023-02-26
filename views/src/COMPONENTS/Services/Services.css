@@ -47,7 +47,7 @@
 .service_card{
     position: absolute;
     left: 5%;
-    height: 55vh;
+    min-height: 55vh;
     width: 90%;
     display: flex;
     align-items: center;
@@ -121,4 +121,107 @@
 #service_gif_btn{
     top: 80%;
     left: 48%;
+}
+
+@media (max-width: 500px) {
+
+    .service_sec1{
+        height: 75vh;
+    }
+
+
+    #serviceTextDiv{
+
+        top: 42%;
+        }
+        
+        #sec1_img {
+            position: absolute;
+            top: 25%;
+            right: 10%;
+            transform: translate(0,-50%);
+            height: 43vh;
+        }
+
+    #serviceTextDiv{
+
+        height: 36vh;
+        width: 84%;
+        text-align: center;
+        left: 10%;
+        }
+        
+        #serviceTextDiv h1{
+        
+        width: 91%;
+        text-align: center;
+        }
+        
+        #serviceTextDiv button{
+        
+        top: 76%;
+        left: 48%;
+        transform: translate(-50%,0%);
+        }
+
+        
+.service_sec2 {
+    min-height: 220vh;
+    width: 100%;
+    position: relative;
+}
+
+.service_sec2>h1 {
+    font-size: 3vmax;
+    margin-top: 3vmax;
+}
+
+.service_card {
+    left: 3%;
+    top: 4%;
+    min-height: 55vh;
+    width: 90%;
+    flex-direction: column;
+}
+
+.card_service {
+    text-align: center;
+    width: 96%;
+}
+
+#service_gif1 {
+    left: 5%;
+    height: 28vh;
+    
+}
+
+#service_gif_text1 {
+    left: 25%;
+    top: 64%;
+}
+
+#service_gif2 {
+    top: 10%;
+    height: 25vh;
+}
+
+#service_gif_text2 {
+    left: 9%;
+    top: 65%;
+    text-align: left;
+    width: 82%;
+}
+
+#service_gif_text3 {
+    font-size: 1.5vmax;
+    width: 84%;
+    left: 7%;
+    top: 81%;
+    text-align: left;
+}
+
+#service_gif_btn {
+    top: 90%;
+    left: 48%;
+}
 }

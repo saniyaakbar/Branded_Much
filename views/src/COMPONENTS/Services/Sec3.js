@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import image1 from '../../assets/duongcam1621-cat.gif'
 import image2 from '../../assets/killedCat.gif'
 
@@ -18,7 +19,7 @@ function Sec3() {
             </div>
 
             <p id='service_gif_text3'>Get answers to your questions and discover the true potential of your idea, business or an already established brand. </p>
-            <button id='service_gif_btn'>Ask Now</button>
+            <Link to='/FreeConsultation'><button id='service_gif_btn'>Ask Now</button></Link>
 
         </div>
     )

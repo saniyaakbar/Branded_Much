@@ -11,6 +11,7 @@ import Segment5 from './Segment5'
 import Services from './Services/Services'
 import Blog from './Blog/Blog'
 import Landing2 from './Landing2'
+import Contact from './CONTACTUS/Contact'
 
 
 function Home() {
@@ -21,7 +22,7 @@ function Home() {
     {/* <Services/> */}
     <Nav/>
     <Landing/>
-    {/* <Landing2/> */}
+    <Landing2/>
     <Segment2/>
     <Segment3/>
     <Segment4/>

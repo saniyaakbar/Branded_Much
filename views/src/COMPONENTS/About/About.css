@@ -80,3 +80,62 @@
     transform: translate(-50%,-50%);
     
 }
+
+
+@media (max-width: 500px) {
+    .sec1 .headline {
+   
+        top: 60%;
+        left: 12%;
+        width: 73%;
+        font-size: 3.5vmax;
+    }
+    
+    .sec1 #I1 {
+        right: 1%;
+        height: 42vh;
+    }
+
+    .sec2{
+        height: 72vh;
+        }
+        
+        .centerAlign {
+            position: absolute;
+            top: 5%;
+            left: 50%;
+            transform: translate(-50%,0%);
+            width: 91%;
+            font-size: 2vmax;
+        }
+        
+        .centerAlign h2 {
+            font-size: 4vmax;
+        }
+        
+        #vid1 {
+            margin-top: 5vmax;
+            height: 24vh;
+        }
+
+        .sec3{
+
+            height: 77vh;
+            }
+            
+            #sec3img {
+               
+                height: 29vh;
+            }
+
+            .sec4 {
+                height: 25vh;
+            }
+            
+            .sec4 h1 {
+                font-size: 2.5vmax;
+                top: 26%;
+                
+            }
+
+}

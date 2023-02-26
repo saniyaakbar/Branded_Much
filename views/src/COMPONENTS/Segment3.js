@@ -1,5 +1,6 @@
 import React from 'react'
 import './Css/Segment2.css'
+import home4 from "../assets/home4-1.png"
 
 function Segment3() {
   return (
@@ -10,7 +11,7 @@ function Segment3() {
             <p>Share your brand’s story with the world through Social Media Marketing on your Brand’s official Handles through our impeccable strategies & concepts driven by trends.</p>
         </div>
         <div className="segOddright">
-            <img src="https://www.tailorbrands.com/wp-content/uploads/2022/02/3-1-1.png" alt="" />
+            <img src={home4} alt="" />
         </div>
         
     </div>

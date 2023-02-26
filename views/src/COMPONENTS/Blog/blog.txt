@@ -1,0 +1,164 @@
+<div className="blogbox">
+        <div className="bbleft"></div>
+        <div className="bbright">
+          <div className="bbheading">
+          <h1>Top 5 ways to start your brand</h1>
+
+          </div>
+          <div className="bbname">
+           <h5>Ausaf Azam</h5>
+            </div>         
+            <div className="bbcontent">
+           <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, commodi atque, dolores debitis libero voluptatem pariatur nihil cumque minima, at dolore! Dolores at iusto rem?</h3>
+
+            </div>
+            <div className="bbreadmore">
+              <Link>
+              <h6>Read More</h6>
+              </Link>
+            </div>
+        </div>
+           <div className="bbright">
+              <span className="card-span"></span>
+              <h1 className="article-title">Gardening</h1>
+              <p className="article-descrip">Learn how to germinate seeds of fruits and vegetables and the seeds of your soul and mind. Breathe with us. Grow with us.</p>
+              <a href="#" target="_blank" className="read-more-button">Read More</a>
+           </div>
+        </div>
+        //
+
+        css//
+        .bbleft{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(187, 255, 0);
+
+}
+/* .bbright{
+
+    width: 70%;
+    height: 100%;
+    background-color: rgb(43, 255, 0);
+} */
+.bbheading{
+    /* padding: 10px; */
+    /* margin-left: 10px; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    background-color: beige;
+}
+.bbname{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(200, 200, 49);
+}
+.bbcontent{
+    /* position: absolute; */
+    width: 100%;
+    height: 45%;
+    background-color: rgb(16, 159, 164);
+}
+.bbreadmore{
+    width: 100%;
+    height: 20%;
+    background-color: gold;
+}
+.bbheading h1{
+    font-size: 1vmax;
+    margin-left: 10px;
+}
+.bbname h5{
+    font-size: 0.4vmax;
+    margin-left: 10px;
+}.bbcontent h3{
+    font-size: 1vmax;
+    margin-left: 10px;
+}.bbreadmore h6{
+    font-size: 1vmax;
+    margin-left: 10px;
+}
+.blogbox{
+    /* padding: 20px; */
+    display: flex;
+    width: 60vw;
+    height: 16vmax;
+    background-color: aqua;
+
+}
+
+/* //
+ */
+ 
+ .bbright {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1.875em;
+    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.45);
+}
+
+.article-title {
+    font-weight: 600;
+    font-size: 2em;
+    margin: 0 0 0.9em;
+}
+
+.article-descrip {
+    font-weight: 300;
+    line-height: 1.25em;
+    margin: 0 0 1.9em 0;
+}
+
+.read-more-button {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #66aa77;
+    font-weight: bold;
+    font-size: 0.8em;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    padding: 0.3125em;
+    left: -0.3125em;
+}
+
+.read-more-button:hover {
+    color: #66aa77;
+}
+
+.read-more-button::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: calc(50%);
+    left: 0;
+    width: 100%;
+    height: 40%;
+    pointer-events: none;
+    background:   #6FDEC9;
+    transform: scale3d(0, 1, 1);
+    transform-origin: 0% 50%;
+    transition: transform 0.33s;
+}
+
+.read-more-button:hover::before{
+    transform: scale3d(1, 1, 1);
+    transform-origin: 0% 50%;
+}
+  
+.cardImage{
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-text-container{
+    margin: 60px 45px 55px;
+}

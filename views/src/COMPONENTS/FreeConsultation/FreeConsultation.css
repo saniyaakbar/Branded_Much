@@ -35,3 +35,34 @@
     top: 70%;
     left: 30%;
 }
+
+@media (max-width: 500px) {
+    .freeConsultation #freeimg1 {
+        height: 44vh;
+        top: 12%;
+        left: 9%;
+    }
+    
+    
+    .freeConsultation .FreecenterText {
+        top: 71%;
+        left: 3%;
+        transform: translate(0, -50%);
+        width: 93%;
+    }
+    
+    .freeConsultation h3 {
+        font-size: 3vmax;
+    }
+    
+    .freeConsultation p {
+        font-size: 2vmax;
+    }
+    
+    .freeConsultation #freeBtn {
+        position: absolute;
+        top: 87%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+}

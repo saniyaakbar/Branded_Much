@@ -41,13 +41,14 @@
     line-height: 2.9vmax;
     width: 70%;
     font-size: 2.7vmax;
-    font-family: ogg;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .segleft p{
     width: 65%;
     font-size: 1.1vmax;
-
+font-family: 'Aldrich', sans-serif;
+;
 }
 
 .segOddright img{
@@ -61,4 +62,62 @@
     top: 10%;
     left: 15%;
     height: 65vh;
+}
+
+@media (max-width: 500px) {
+    
+
+.segEvenLeft {
+    position: absolute;
+    top: 2%;
+    right: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.segleft {
+    height: 40vh;
+    width: 90%;
+    text-align: right;
+    /* background-color: beige; */
+}
+
+.segleft h1 {
+    line-height: 4.9vmax;
+    width: 100%;
+    font-size: 4vmax;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.segleft p {
+    width: 80%;
+    font-size: 1.8vmax;
+    font-family: 'Aldrich', sans-serif;
+    ;
+}
+
+.segEvenright img {
+    position: absolute;
+    top: 42%;
+    left: 3%;
+    height: 45vh;
+}
+
+.segOddLeft{
+    top: 5%;
+    left: 3%;
+    text-align: left;
+}
+
+.segOddLeft h1{
+    font-size: 3vmax;
+}
+
+.segOddright img {
+    height: 41vh;
+    margin-left: 1vmax;
+    margin-top: 30vmax;
+}
+
 }

@@ -6,6 +6,7 @@ import Services from './COMPONENTS/Services/Services';
 import Blog from './COMPONENTS/Blog/Blog';
 import FreeConsultation from './COMPONENTS/FreeConsultation/FreeConsultation';
 import { useEffect, useState } from 'react';
+import Submitted from './COMPONENTS/FreeConsultation/Submitted';
 
 
 
@@ -38,6 +39,8 @@ function App() {
       <Route path="/About" element={<About/>}/>
       <Route path="/Blog" element={<Blog />}/>
       <Route path="/FreeConsultation" element={<FreeConsultation />}/>
+      <Route path="/FormSubmitted" element={<Submitted />}/>
+
       </Routes>
       
     </div>

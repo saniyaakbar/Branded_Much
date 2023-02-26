@@ -1,5 +1,6 @@
 import React from 'react'
 import './Css/Landing2.css'
+import home2 from "../assets/home2.png"
 function Landing2() {
   return (
     <div id='landing2'>
@@ -9,7 +10,7 @@ function Landing2() {
             <p>With a mix of greatest communication & flawless design, we help you rock your branding from Day 1!</p>
         </div>
         <div className="right">
-            <img src="https://www.tailorbrands.com/wp-content/uploads/2022/02/1-1-1.png" alt="" />
+            <img src={home2} alt="" />
         </div>
         
     </div>

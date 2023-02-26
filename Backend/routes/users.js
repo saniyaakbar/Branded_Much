@@ -1,9 +1,32 @@
-var express = require('express');
-var router = express.Router();
 
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-});
+var mongoose = require('mongoose');
+var plm = require('passport-local-mongoose');
+var url = process.env.DATABASE_URL
 
-module.exports = router;
+console.log(url)
+
+
+mongoose.connect('mongodb://localhost/brandedmuch');
+
+var userSchema = mongoose.Schema({
+  name: String,
+  company: String,
+  industry: String,
+  designation: String,
+  email: String,
+  phone: Number,
+  location: String,
+  message: {
+    type: String,
+    default:  ""
+  }
+})
+
+userSchema.plugin(plm);
+
+module.exports = mongoose.model('user', userSchema);
+
+
+
+
+
